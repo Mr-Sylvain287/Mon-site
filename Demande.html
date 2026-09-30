@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faire une demande</title>
+</head>
+<body>
 
+    <h1>Faire une demande</h1>
+
+    <form action="confirmation.html" method="get">
+
+        <label>Nom complet :</label><br>
+        <input type="text" name="nom" required><br><br>
+
+        <label>Adresse e-mail :</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Téléphone :</label><br>
+        <input type="tel" name="telephone" required><br><br>
+
+        <label>Votre demande :</label><br>
+        <textarea name="message" rows="6" required></textarea><br><br>
+
+        <button type="submit">
+            Envoyer la demande
+        </button>
+
+    </form>
+
+    <br>
+
+    <button onclick="window.location.href='index.html'">
+        Retour à l'accueil
+    </button>
+
+</body>
+</html>
